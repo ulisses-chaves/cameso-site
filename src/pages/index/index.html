@@ -10,29 +10,49 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="../../assets/main.scss">
     <link rel="stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="../../assets/general.scss">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../assets/styles/general.scss">
+    <link rel="stylesheet" href="main.scss">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;800&display=swap" rel="stylesheet">
 </head>
-  <body>
+  <body class="color-dark">
+    <div class="container">
+        <a class="float-end text-decoration-none color-dark" href="">
+          <span style="text-align: center;" class="text-right me-2">Página do cliente</span>
+          <img src="../../assets/images/icon_user.svg" alt="">
+        </a>
+    </div>
+    <div class="w-100 mt-2" style="border-bottom: 0.3px solid #D6D6D6;"><br/></div>
+
     <div class="container">
       <nav class=" navbar navbar-expand-lg bg-body-tertiary">
-        <a class="navbar-brand" href="#">LOGO</a>
+        <a class="navbar-brand" href="#">
+          <img src="../../assets/images/logo.svg" alt="logo">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Início</a>
+              <a class="nav-link active fw-bold" aria-current="page" href="#">Início</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Nossos Serviços</a>
+            <li class="nav-item mx-3">
+              <a class="nav-link fw-normal" style="font-weight: 300;" href="#">Nossos Serviços</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item me-3">
               <a class="nav-link" href="#">Segurança do Trabalho</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">eSocial</a>
+              <button type="button" class="btn btn-outline-success">
+                  <div class="row">
+                    <div class="col-3">
+                      <img src="../../assets/images/icon_eSocial.svg" alt="">
+                    </div>
+                    <div class="col-9">
+                      <span class="color-dark" >eSocial</span>
+                    </div>
+                  </div>
+              </button>
             </li>
           </ul>
         </div>
@@ -41,8 +61,25 @@
 
     <div class="container">
       <div class="row">
-        <div class="col">
-          <img class="w-100" src="../../../../Ulisses/caveira.png">
+        <div class="col-7 my-auto pe-auto">
+          <div class="ms-auto" style="width: fit-content;">
+            <p class="h5">Sua clínica especializada em</p>
+            <p class="h2">Saúde e Segurança</p>
+            <p class="h2 mb-4">do Trabalho</p>
+            <button type="button" class="btn bg-green w-50 color-light">
+              <div class="row">
+                <div class=" col-9" >
+                  <span class="h5 fw-bold">Fale Conosco</span>
+                </div>
+                <div class="col-3">
+                  <img src="../../assets/images/icon_Whatsapp.svg" alt="Whatsapp">
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="col-5 text-right">
+          <img class="w-75" src="../../assets/images/img_inicio.png" alt="Profissional da Saúde">
         </div>
       </div>
     </div>
@@ -50,36 +87,38 @@
     <div class="container-fluid mb-5">
       <div class ="row px-0 text-center py-5 gd-green">
         <div class="col">
-          <p class="color-light h1">+50.000</p>
-          <p class="color-dark h6">exames realizados</p>
+          <p class="color-light h1 mb-0">+50.000</p>
+          <p class="color-dark h5">exames realizados</p>
         </div>
         <div class="col">
-          <h1 class="color-light h1">+360.000</h1>
-          <p class="color-dark h6">colaboradores atendidos</p>
+          <h1 class="color-light h1 mb-0">+360.000</h1>
+          <p class="color-dark h5">colaboradores atendidos</p>
         </div>
         <div class="col">
-          <h1 class="color-light h1">+12 anos</h1>
+          <h1 class="color-light h1 mb-0">+12 anos</h1>
           <p class="color-dark h5">de experiência</p>
         </div>
       </div>
     </div>
   
-    <div class="container">
-      <div class="row">
+    <div class="container bg-white">
+      <div class="row mb-5">
         <div class="col">
           <p class="text-center h2">Nossos principais serviços</p>
         </div>
       </div>
       <div class="row mb-5">
         <div class="col px-4">
-          <div class="card shadow-lg mt-5" style="border: none;">
+          <div class="card shadow-lg mt-5 p-3" style="border: none;">
             <div class="card-body">
-              <div class="row">
+              <div class="row mb-4">
                 <div class="col-3">
-                  IMG
+                  <div class="rounded bg-dark">
+                    <img class="w-100 p-2" src="../../assets/images/img_brain.svg" alt="">
                 </div>
-                <div class="col-7">
-                  <h5 class="card-title">Treinamentos</h5>
+                </div>
+                <div class="col-7 my-auto">
+                  <p class="card-title h5 fw-bold">Treinamentos</p>
                 </div>
               </div>
               <p class="card-text">Os treinamentos de segurança do trabalho são essenciais para garantir a proteção dos trabalhadores e prevenir acidentes e doenças ocupacionais, sendo específicos para cada empresa.</p>
@@ -87,32 +126,104 @@
           </div>
         </div>
         <div class="col px-4">
-          <div class="card shadow-lg" style="border: none;">
+          <div class="card shadow-lg p-2" style="border: none;">
             <div class="card-body">
-              <div class="row">
-                <div class="col-3">
-                  IMG
+              <div class="row mb-4">
+                <div class="col-3" >
+                  <div class="rounded bg-dark">
+                    <img class="w-100" src="../../assets/images/img_esocial.svg" alt=""></div>
                 </div>
-                <div class="col-7">
-                  <h5 class="card-title">Transmissão eSocial</h5>
+                <div class="col-7 my-auto">
+                  <p class="card-title h5 fw-bold">Transmissão eSocial</p>
                 </div>
               </div>
-              <p class="card-text">O eSocial é um sistema eletrônico do governo brasileiro que tem como objetivo unificar e simplificar o envio de informações trabalhistas, previ-denciárias e fiscais pelas empresas.</p>
+              <p class="card-text h6">O eSocial é um sistema eletrônico do governo brasileiro que tem como objetivo unificar e simplificar o envio de informações trabalhistas, previ-denciárias e fiscais pelas empresas.</p>
             </div>
           </div>
         </div>
         <div class="col px-4">
-          <div class="card shadow-lg mt-5" style="border: none;">
+          <div class="card shadow-lg mt-5 p-3" style="border: none;">
             <div class="card-body">
-              <div class="row">
+              <div class="row mb-4">
                 <div class="col-3">
-                  IMG
+                  <div class="rounded bg-dark">
+                    <img class="w-100 p-2" src="../../assets/images/img_head-bandage.svg" alt="">
+                  </div>
                 </div>
-                <div class="col-7">
-                  <h5 class="card-title">Gerenciamento de riscos</h5>
+                <div class="col-7 my-auto">
+                  <p class="card-title h5 fw-bold">Gerenciamento de riscos</p>
                 </div>
               </div>
               <p class="card-text">Planejamos, organizamos, dirigimos e controlamos os recursos humanos e materiais de uma organização, minimizando ou aproveitando os riscos e incertezas sobre essa organização.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container bg-white">
+      <div class="row mb-5">
+        <div class="col">
+          <p class="text-center h2">Alguns de nossos clientes</p>
+          <p class="text-center h6 mb-5">A Cameso tem a confiança de várias empresas em 3 regiões do país</p>
+          <img class="w-100" src="../../assets/images/group 105.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="container bg-white">
+      <div class="row mb-5">
+        <div class="col">
+          <p class="text-center h2">O que falam nossos clientes</p>
+          <p class="text-center h6">O feedback que comprovam nossa excelência!</p>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col px-4">
+          <div class="card shadow-lg mt-5 p-3" style="border: none;">
+            <div class="card-body">
+              <div class="row mb-4">
+                <div class="col-3">
+                  <div class="rounded">
+                    <img class="w-100 p-2" src="../../assets/images/persona 1 1.svg" alt="">
+                </div>
+                </div>
+                <div class="col-7 my-auto">
+                  <p class="card-title h5 fw-bold">Rute P.</p>
+                </div>
+              </div>
+              <p class="card-text">“Estou feliz com a Cameso, pois me respondeu a tudo que perguntei sobre as questões de eSocial e segurança do trabalho. Super recomendo!”</p>
+            </div>
+          </div>
+        </div>
+        <div class="col px-4">
+          <div class="card bg-green color-light shadow-lg p-3" style="border: none;">
+            <div class="card-body">
+              <div class="row mb-4">
+                <div class="col-3" >
+                  <div class="rounded">
+                    <img class="w-100" src="../../assets/images/persona 2 1.svg" alt=""></div>
+                </div>
+                <div class="col-7 my-auto">
+                  <p class="card-title h5 fw-bold">Miguel G.</p>
+                </div>
+              </div>
+              <p class="card-text">“A Cameso conseguiu oferecer soluções personalizadas para atender às necessidades da minha empresa, além de dar todo o suporte que precisei.”</p>
+            </div>
+          </div>
+        </div>
+        <div class="col px-4">
+          <div class="card shadow-lg mt-5 p-3" style="border: none;">
+            <div class="card-body">
+              <div class="row mb-4">
+                <div class="col-3">
+                  <div class="rounded">
+                    <img class="w-100 p-2" src="../../assets/images/persona 3 1.svg" alt="">
+                  </div>
+                </div>
+                <div class="col-7 my-auto">
+                  <p class="card-title h5 fw-bold">Davi F.</p>
+                </div>
+              </div>
+              <p class="card-text">“Muito satisfeito com o serviço da Cameso, que soube administrar bem as demandas que surgiam na minha empresa, desde programas à treinamentos.”</p>
             </div>
           </div>
         </div>
