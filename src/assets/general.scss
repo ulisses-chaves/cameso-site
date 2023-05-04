@@ -1,0 +1,155 @@
+html {
+    font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+/* General */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Base Colors */
+
+.bg-light {
+    background-color: #F6F8FE;
+}
+.color-light {
+    color: #F6F8FE;
+}
+
+.bg-dark {
+    background-color: #1A2E38;
+}
+.color-dark {
+    color: #1A2E38;
+}
+
+.bg-green {
+    background-color: #42C059;
+}
+.color-green {
+    color: #42C059;
+}
+
+/* Secondary Colors */
+
+.bg-light-green {
+    background-color: #C9EFD0;
+}
+.color-light-green {
+    color: #C9EFD0;
+}
+
+.bg-medium-green {
+    background-color: #42D95D;
+}
+.color-medium-green {
+    color: #42D95D;
+}
+
+.bg-system-green {
+    background-color: #42C059;
+}
+.color-system-green {
+    color: #42C059;
+}
+
+.bg-dark-green {
+    background-color: #158629;
+}
+.color-dark-green {
+    color: #158629;
+}
+
+/* Neutral Colors */
+
+.bg-white {
+    background-color: #FBFBFB;
+}
+.color-white {
+    color: #FBFBFB;
+}
+
+.bg-light-grey {
+    background-color: #E2E0E0;
+}
+.color-light-grey {
+    color: #E2E0E0;
+}
+
+.bg-medium-grey {
+    background-color: #D3D3D3;
+}
+.color-medium-grey {
+    color: #D3D3D3;
+}
+
+.bg-grey {
+    background-color: #888888;
+}
+.color-grey {
+    color: #888888;
+}
+
+.bg-dark-grey {
+    background-color: #676666;
+}
+.color-dark-grey {
+    color: #676666;
+}
+
+/* Gradient */
+.gd-green {
+    background-image: linear-gradient(to bottom, #42D95D, #42C159);
+}
+.gd-dark {
+    background-image: linear-gradient(to bottom, #1A2E38, #0D181D);
+}
+.gd-light {
+    background-image: linear-gradient(to bottom, #F6F8FE, #EAEAEA);
+}
+
+/* Heading */
+.h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.h2 {
+    font-size: 60;
+    font-weight: 600;
+}
+.h3 {
+    font-size: 50;
+    font-weight: 600;
+}
+.h4 {
+    font-size: 35;
+    font-weight: 600;
+}
+.h5 {
+    font-size: 24;
+    font-weight: 300;
+}
+.he6 {
+    font-size: 20;
+    font-weight: 300;
+}
+
