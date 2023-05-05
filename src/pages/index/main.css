@@ -1,0 +1,9 @@
+.btn-custom:hover {
+  border-color: #42C059;
+  color: #42C059;
+}
+
+.btn-custom-outline:hover {
+  background-color: #42C059;
+  color: #ffffff;
+}/*# sourceMappingURL=main.css.map */

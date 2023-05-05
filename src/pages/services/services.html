@@ -8,9 +8,430 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../assets/main.scss">
+    <link rel="stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../../assets/styles/general.scss">
+    <link rel="stylesheet" href="security.scss">
 </head>
-<body>
+<body class="color-dark">
+    <div class="container">
+        <a class="float-end text-decoration-none color-dark" href="">
+          <span style="text-align: center;" class="text-right me-2">Página do cliente</span>
+          <img src="../../assets/images/icon_user.svg" alt="">
+        </a>
+    </div>
+    <div class="w-100 mt-2" style="border-bottom: 0.3px solid #D6D6D6;"><br/></div>
+
+    <div class="container">
+      <nav class=" navbar navbar-expand-lg bg-body-tertiary">
+        <a class="navbar-brand" href="#">
+          <img src="../../assets/images/logo.svg" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Início</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link active fw-bold" style="font-weight: 300;" href="#">Nossos Serviços</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#">Segurança do Trabalho</a>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn btn-outline-success btn-custom-outline color-dark">
+                  <div class="row">
+                    <div class="col-3">
+                      <img src="../../assets/images/icon_eSocial.svg" alt="">
+                    </div>
+                    <div class="col-9">
+                      <span>eSocial</span>
+                    </div>
+                  </div>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-7 my-auto pe-auto">
+            <div>
+              <p class="h2">Agendamento fácil e rápido</p>
+              <p class="h5 mb-4">A Cameso conta com um sistema fácil e prático para encontrar o horário perfeito para os exames dos seus funcionários!</p>
+              <button type="button" class="btn bg-green btn-custom shadow-lg px-4 py-2 color-light">
+                <span class="h6 fw-bold">Agende agora</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-5">
+            <img class="w-75" src="../../assets/images/img_exames.png" alt="Profissional da Saúde">
+          </div>
+        </div>
+    </div>
+    
+    <div class="row mb-5">
+        <div class="col w-75 mt-5 me-auto">
+            <div class="w-75 ps-5 mt-5 me-5 float-end">
+            <p class="h3">
+                Exames clínicos e complementares
+            </p>
+            <p>
+                Dispomos de uma estrutura completa para realização dos exames clínicos e complementares, proporcionando aos nossos clientes conforto e agilidade operacional.
+            </p>
+            <p>
+                Entre em contato conosco e confira os Pacotes Especiais para Empresas com atendimento in company, onde realizamos o atendimento com data e horário marcado para facilitar seu dia a dia.
+            </p>
+            <p>
+                Conheça um pouco mais sobre Exames Clínicos e Complementares:
+            </p>
+        </div>
+        </div>
+        <div class="col">
+            <img class="w-100" src="../../assets/images/Mask group.png" alt="">
+        </div>
+    </div>
+    <div class="container">
+        <div class="text-center mb-5">
+            <p class="h4">
+                Avaliação clínica ocupacional
+            </p>
+            <p>
+                Anamneses e exame físico
+            </p>
+        </div>
+        <div class="px-5">
+            <p class="h5 fw-bold">
+                Exame admissional
+            </p>
+            <p class="h6">
+                Deve ser realizado em até dez dias antes que o empregado assuma suas atividades.
+            </p>
+        </div>
+        <div class="w-100 my-4" style="border-bottom: 0.3px solid #D6D6D6;"></div>
+        <div class="px-5">
+            <p class="h5 fw-bold">
+                Exame demissional
+            </p>
+            <p class="h6">
+                Deve ser realizado em até dez dias contados do término do contrato, podendo ser dispensado caso o exame clínico ocupacional mais recente tenha sido realizado há menos de 135 dias para empresas de grau de risco 1 ou 2, ou 90 dias, para empresas de grau de risco 3 ou 4.
+            </p>
+        </div>
+        <div class="w-100 my-4" style="border-bottom: 0.3px solid #D6D6D6;"></div>
+        <div class="px-5">
+            <p class="h5 fw-bold">
+                Exame periódico
+            </p>
+            <p class="h6">
+                Exames realizados anualmente de acordo com a função e riscos de exposição, seguindo a periodicidade definida no Programa de Controle Médico de Saúde Ocupacional (PCMSO).
+            </p>
+        </div>
+        <div class="w-100 my-4" style="border-bottom: 0.3px solid #D6D6D6;"></div>
+        <div class="px-5">
+            <p class="h5 fw-bold">
+                Exame de Retorno ao Trabalho
+            </p>
+            <p class="h6">
+                Deve ser realizado antes que o empregado reassuma suas funções, quando ausente por período igual ou superior a trinta dias por motivo de doença ou acidente, de natureza ocupacional ou não.
+            </p>
+        </div>
+        <div class="w-100 my-4" style="border-bottom: 0.3px solid #D6D6D6;"></div>
+        <div class="px-5 mb-5">
+            <p class="h5 fw-bold">
+                Exame para Mudança de Risco Ocupacional
+            </p>
+            <p class="h6">
+                Deve ser realizado antes da data da mudança, adequando-se o controle médico aos novos riscos.
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="text-center mb-5">
+            <p class="h4">
+                Exames complementares e suas indicações
+            </p>
+            <p class="color-grey">
+                Os exames complementares devem ser realizados de acordo com o PCMSO da empresa.
+            </p>
+        </div>
+        
+        <div class="row mb-5">
+            <div class="col">
+                <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
+                    <div class="card-body">
+                        <p class="card-title h5 fw-bold">
+                            Acuidade visual
+                        </p>
+                        <p class="card-text h6">
+                            O eSocial é um sistema eletrônico do governo brasileiro que tem como objetivo unificar e simplificar o envio de informações trabalhistas, previ-denciárias e fiscais pelas empresas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
+                    <div class="card-body">
+                        <p class="card-title h5 fw-bold">
+                            Audiometria Tonal Ocupacional
+                        </p>
+                        <p class="card-text h6">
+                            Visa prevenir o surgimento e/ou agravamento da perda auditiva induzida por níveis de pressão sonora elevados e a conservação da saúde auditiva dos trabalhadores.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
+                    <div class="card-body">
+                        <p class="card-title h5 fw-bold">
+                            Ácido hipúrico
+                        </p>
+                        <p class="card-text h6">
+                            É empregado na monitorização biológica de trabalhadores expostos ocupacionalmente aos solventes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-5">    
+            <div class="col">
+                <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
+                    <div class="card-body">
+                        <p class="card-title h5 fw-bold">
+                            Ácido metil hipúrico
+                        </p>
+                        <p class="card-text h6">
+                            É empregado na monitorização biológica de trabalhadores expostos ocupacionalmente aos solventes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
+                    <div class="card-body">
+                        <p class="card-title h5 fw-bold">
+                            Hemograma completo
+                        </p>
+                        <p class="card-text h6">
+                            Avalia as células sanguíneas de um paciente, ou seja, as da série branca e vermelha, contagem de plaquetas, reticulócitos e índices hematológicos. O exame é requerido pelo médico para diagnosticar ou controlar a evolução de uma doença.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
+                    <div class="card-body">
+                        <p class="card-title h5 fw-bold">
+                            Espirometria
+                        </p>
+                        <p class="card-text h6">
+                            Visa prevenir o surgimento e/ou agravamento de patologias pulmonares.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col">
+                <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
+                    <div class="card-body">
+                        <p class="card-title h5 fw-bold">
+                            Raio-x do tórax (PA)
+                        </p>
+                        <p>
+                            Padrão OIT
+                        </p>
+                        <p class="card-text h6">
+                            É empregado na monitorização biológica de trabalhadores expostos ocupacionalmente aos solventes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
+                    <div class="card-body">
+                        <p class="card-title h5 fw-bold">
+                            Raio-x de coluna lombo-sacra
+                        </p>
+                        <p class="card-text h6">
+                            Visa prevenir o surgimento de modificações de eixo da coluna, lesões ósseas e perda de cartilagem.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
+                    <div class="card-body">
+                        <p class="card-title h5 fw-bold">
+                            Glicemia
+                        </p>
+                        <p class="card-text h6">
+                            Para prevenção de acidentes do trabalho para atividades perigosas. Profissionais com alterações na glicemia podem apresentar diversos tipos de mal-estar, aumentando o risco de acidentes do trabalho.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col">
+                <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
+                    <div class="card-body">
+                        <p class="card-title h5 fw-bold">
+                            Eletrocardiograma (ECG)
+                        </p>
+                        <p class="card-text h6">
+                            Exame cardiológico do funcionário que visa avaliar aptidão para a função e prevenção de acidentes do trabalho.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
+                    <div class="card-body">
+                        <p class="card-title h5 fw-bold">
+                            Eletroencefalograma (EGG)
+                        </p>
+                        <p class="card-text h6">
+                            Exame neurológico que avaliar aptidão para a função e prevenção de acidentes do trabalho.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
+                    <div class="card-body">
+                        <p class="card-title h5 fw-bold">
+                            Avaliação psicossocial
+                        </p>
+                        <p class="card-text h6">
+                            Procedimento que visa avaliar (no sentido de analisar, compreender, esclarecer) a dinâmica dos processos psicológicos representativos de um indivíduo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col">
+                <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
+                    <div class="card-body">
+                        <p class="card-title h5 fw-bold">
+                            Níquel urinário
+                        </p>
+                        <p class="card-text h6">
+                            Controle de monitorização biológica a exposição a níquel.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
+                    <div class="card-body">
+                        <p class="card-title h5 fw-bold">
+                            Cobre urinário
+                        </p>
+                        <p class="card-text h6">
+                            Controle de monitorização biológica a exposição a cobre.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
+                    <div class="card-body">
+                        <p class="card-title h5 fw-bold">
+                            Uréia
+                        </p>
+                        <p class="card-text h6">
+                            A dosagem da ureia no sangue é utilizada para avaliar a função renal, ou para confirmar e/ou avaliar a evolução de uma patologia que afete a função dos rins. Ajuda a avaliar a intensidade de uma desidratação.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col">
+                <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
+                    <div class="card-body">
+                        <p class="card-title h5 fw-bold">
+                            Transaminase oxalacética (TGO)
+                        </p>
+                        <p class="card-text h6">
+                            Detecção e prevenção de alterações hepáticas decorrentes da exposição a tintas e solventes. Avalia a quantidade de aminotransferase de aspartate no sangue, sendo essencial para o diagnóstico de doenças hepáticas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
+                    <div class="card-body">
+                        <p class="card-title h5 fw-bold">
+                            Transaminase pirúvica (TGP)
+                        </p>
+                        <p class="card-text h6">
+                            Detecção e prevenção de alterações hepáticas decorrentes da exposição a tintas e solventes. Avalia a quantidade de alanina amino transferase no sangue, sendo essencial para o diagnóstico de doenças hepáticas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
+                    <div class="card-body">
+                        <p class="card-title h5 fw-bold">
+                            Fenol urinário
+                        </p>
+                        <p class="card-text h6">
+                            Avaliar a exposição ao fenol que é facilmente absorvido através da mucosa, pele e excretado pela urina. É corrosivo, levando à severa ulceração, queimaduras e intoxicações crônicas tais como transtornos digestivos e disfunção do sistema nervoso.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col">
+                <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
+                    <div class="card-body">
+                        <p class="card-title h5 fw-bold">
+                            Creatina
+                        </p>
+                        <p class="card-text h6">
+                            Avaliar a função renal, particularmente a forma de excreção de creatinina pelos rins e, por conseguinte, os produtos do metabolismo das proteínas. É também utilizado para controlar a evolução e o tratamento das patologias renais.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
+                    <div class="card-body">
+                        <p class="card-title h5 fw-bold">
+                            Acido delta amino levulinico (ALAU)
+                        </p>
+                        <p class="card-text h6">
+                            Controle de monitorização biológica a exposição a chumbo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
+                    <div class="card-body">
+                        <p class="card-title h5 fw-bold">
+                            Teste de Romberg
+                        </p>
+                        <p class="card-text h6">
+                            Análise do equilíbro corporal, recomenda-se a realização de uma triagem otoneurológica dos funcionários submetidos a trabalhos em altura e com risco de queda, para prevenir que acidentes ocorram.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
