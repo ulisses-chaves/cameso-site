@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +8,256 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../assets/main.scss">
+    <link rel="stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../../assets/styles/general.css">
+    <link rel="stylesheet" href="main.scss">
 </head>
 <body>
-    
+    <div class="container">
+        <a class="float-end text-decoration-none color-dark" href="">
+          <span style="text-align: center;" class="text-right me-2">Página do cliente</span>
+          <img src="../../assets/images/icon_user.svg" alt="">
+        </a>
+    </div>
+    <div class="w-100 mt-2" style="border-bottom: 0.3px solid #D6D6D6;"><br/></div>
+
+    <div class="container">
+      <nav class=" navbar navbar-expand-lg bg-body-tertiary">
+        <a class="navbar-brand" href="#">
+          <img src="../../assets/images/Logo Dark.svg" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html">Início</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="../security/services.html">Nossos Serviços</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="">Segurança do Trabalho</a>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn bg-green btn-custom color-light">
+                  <div class="row">
+                    <div class="col-3">
+                      <img src="../../assets/images/icon_eSocial.svg" alt="">
+                    </div>
+                    <div class="col-9">
+                      <span>eSocial</span>
+                    </div>
+                  </div>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="row align-items-center">
+        <div class="col pe-0 w-75">
+            <div class="w-75 ps-5 mx-auto">
+                <p class="h4 m-0 fw-normal" >
+                    Somos uma empresa
+                </p>
+                <p class="m-0 h3">
+                    especializada
+                </p>
+                <p class="h4 fw-normal">
+                    em transmissão no eSocial
+                </p>
+                <p class="h5">
+                    O eSocial é uma ferramenta que facilita a vida das empresas e do governo ao centralizar informações trabalhistas em uma única plataforma.
+                </p>
+            </div>
+        </div>
+        <div class="col ps-0">
+            <img class="w-100" src="../../assets/images/imagem eSocial 1.png" alt="">
+        </div>
+    </div>
+
+    <div class="row align-items-center">
+        <div class="col pe-0 me-0">
+            <img class="w-100" src="../../assets/images/imagem eSocial 2.png" alt="">
+        </div>
+        <div class="col ps-0 w-75">
+            <div class="w-75 mx-auto">
+                <p class="h4">
+                    Para que serve o eSocial?
+                </p>
+                <p class="h5">
+                    O eSocial serve para simplificar e unificar a prestação de informações trabalhistas, fiscais e previdenciárias pelas empresas ao governo federal do Brasil. Com a plataforma, as empresas podem enviar todas as informações relacionadas aos seus funcionários, como folha de pagamento, férias, rescisões contratuais, entre outras, em um único canal.
+                </p>
+                <p class="h5">
+                    Essa unificação de informações é importante para o governo federal, pois permite um melhor monitoramento e controle das obrigações trabalhistas, fiscais e previdenciárias das empresas. Além disso, o eSocial ajuda a combater a sonegação fiscal, já que todas as informações são centralizadas e monitoradas pelo governo.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row align-items-center">
+        <div class="col pe-0 w-75">
+            <div class="w-75 ps-5 mx-auto">
+                <p class="h4">
+                    Quais os benefícios do eSocial?
+                </p>
+                <p class="h5">
+                    O eSocial também traz benefícios para as empresas, pois reduz a burocracia e os custos com a prestação de contas. Antes do eSocial, as empresas precisavam enviar diversas informações a diferentes órgãos governamentais, o que demandava tempo e recursos. Com o eSocial, todas as informações podem ser enviadas em um único canal, de forma mais ágil e eficiente.
+                </p>
+            </div>
+        </div>
+        <div class="col ps-0">
+            <img class="w-100" src="../../assets/images/imagem eSocial 3.png" alt="">
+        </div>
+    </div>
+
+    <div class="my-5 container h6">
+        <p class="mb-5 h4 text-center">
+            O que é enviado ao eSocial?
+        </p>
+        <p>
+            No eSocial, as empresas precisam enviar todas as informações relacionadas aos seus funcionários, desde o processo admissional até o desligamento do empregado. Isso inclui dados como:
+        </p>
+        <ul>
+            <li>Cadastro geral do empregador e do empregado;</li>
+            <li>Contratação e demissão;</li>
+            <li>Jornada de trabalho e folha de pagamento;</li>
+            <li>Férias e afastamentos;</li>
+            <li>Dados sobre a saúde do trabalhador, como atestados médicos;</li>
+            <li>Contribuições previdenciárias;</li>
+            <li>Informações sobre o FGTS;</li>
+            <li>Dados sobre a segurança e saúde do trabalho;</li>
+            <li>Informações sobre o trabalho de menores e aprendizes;</li>
+            <li>Eventos periódicos, como o envio de informações sobre a folha de pagamento, e eventos não periódicos, como alterações salariais e de dados cadastrais.</li>
+        </ul>
+        <p class="mb-5 pb-5">
+            Todas essas informações são enviadas de forma eletrônica, por meio do sistema eSocial, em um formato padronizado e de acordo com as normas e regras estabelecidas pelo governo federal. O objetivo é facilitar a prestação de informações trabalhistas, fiscais e previdenciárias pelas empresas, além de garantir um maior controle e transparência por parte do governo.
+        </p>
+    </div>
+
+    <footer class="bg-dark color-light">
+        <div class="row bg-light">
+            <div class="col-3 p-0">
+                <div class="h-50"></div>
+                <div class="h-50 bg-dark"></div>
+            </div>
+            <div class="col-6 py-4 text-center gd-green shadow-lg rounded">
+                <p class="h5 pt-1">
+                    Proteja a sua empresa
+                </p>
+                <p class="h3 mb-4">
+                    Venha para a Cameso
+                </p>
+                <button type="button" class="btn btn-light color-dark shadow-lg">
+                    Fale Conosco
+                </button>
+            </div>
+            <div class="col-3 p-0">
+                <div class="h-50"></div>
+                <div class="h-50 bg-dark"></div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-4">
+                    <img class="mb-3" src="../../assets/images/Logo Light.svg" alt="logo">
+                    <p class="fw-300">
+                        A Cameso é uma clínica de Saúde e Segurança do Trabalho com 12 anos de experiência e assorando em vários estados do Brasil.
+                    </p>
+                    <div class="row">
+                        <div class="col">
+                            <img class="me-2" src="../../assets/images/phone.svg" alt="">
+                            <span>
+                                (081) 9 1234-5678
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col">
+                            <img class="me-2" src="../../assets/images/mail.svg" alt="">
+                            <span>
+                                contato@cameso.com.br
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <a href="">
+                                <img class="me-2" src="../../assets/images/Whatsapp.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="">
+                                <img class="me-2" src="../../assets/images/Instagram.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="">
+                                <img class="me-2" src="../../assets/images/Facebook.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="">
+                                <img class="me-2" src="../../assets/images/Youtube.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 mt-4">
+                    <p class="h5 fw-bold">
+                        Unidades
+                    </p>
+                    <div class="row">
+                        <div class="col">
+                            <p class="fw-300 m-0 mx-auto">
+                                <span class="fw-bold">Vitória de Santo Antão: </span>
+                                R. Eurico Valois, 128, Centro
+                            </p>
+                            <p class="fw-300 m-0">
+                                Fone: (81) 98821-3512 ou 3523-3512 – agendamento
+                            </p>
+                            <p class="fw-300">
+                                Horário: Segunda a sexta das 07h30 às 16h00.
+                            </p>
+                            <p class="fw-300 m-0">
+                                <span class="fw-bold">Recife – Caxangá: </span>
+                                Av. Caxangá, 279, Madalena
+                            </p>
+                            <p class="fw-300 m-0">
+                                Fone: (81) 9 9713-3000 – agendamento
+                            </p>
+                            <p class="fw-300">
+                                Horário: Segunda a sexta feira das 07h30 às 11h30.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 mt-4">
+                    <form>
+                        <div class="mb-3">
+                          <input type="text" placeholder="Nome da empresa" class="form-control fw-300" id="exampleInputCompany">
+                        </div>
+                        <div class="mb-3">
+                          <input type="text" placeholder="Telefone para contato" class="form-control fw-300" id="exampleInputPhone">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" placeholder="Seu e-mail" class="form-control fw-300" id="exampleInputEmail">
+                        </div>
+                        <button type="submit" class="btn btn-custom bg-green color-light float-end">Solicitar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="h6 py-5">
+                <p class="text-center">
+                    © 2023 CAMESO. Todos os direitos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
