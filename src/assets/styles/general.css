@@ -126,7 +126,7 @@ body {
 
 /* Gradient */
 .gd-green {
-  background-image: linear-gradient(to bottom, #42D95D, #42C159);
+  background-image: linear-gradient(to right, #42D95D, #42C159);
 }
 
 .gd-dark {
