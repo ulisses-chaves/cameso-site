@@ -12,12 +12,11 @@
       <link rel="stylesheet" href="../../assets/main.scss">
       <link rel="stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.min.css">
       <link rel="stylesheet" href="../../assets/styles/general.css">
-      <link rel="stylesheet" href="main.scss">
   </head>
   <body class="color-dark">
-    <div class="container-fluid gd-light">
+    <div class="container-fluid">
       <div class="container my-2">
-        <a class="text-decoration-none  color-dark" href="">
+        <a class="text-decoration-none color-dark" href="">
           <p class="text-end m-0">
             Página do cliente 
             <img class="ms-1" src="../../assets/images/icon_user.svg" alt="">
@@ -44,25 +43,27 @@
                   Nossos Serviços
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Exames</a></li>
+                  <li><a class="dropdown-item" href="../services/exams.html">Exames</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Treinamentos</a></li>
+                  <li><a class="dropdown-item" href="../services/trainings.html">Treinamentos</a></li>
                 </ul>
               </li>
               <li class="nav-item me-3">
-                <a class="nav-link" href="">Segurança do Trabalho</a>
+                <a class="nav-link" href="../security/security.html">Segurança do Trabalho</a>
               </li>
               <li class="nav-item">
-                <button type="button" class="btn btn-outline-success btn-custom-outline color-dark">
-                    <div class="row">
-                      <div class="col-3">
-                        <img src="../../assets/images/icon_eSocial.svg" alt="">
+                <a href="../esocial/esocial.html">
+                  <button type="button" class="btn btn-outline-success btn-custom-outline color-dark">
+                      <div class="row">
+                        <div class="col-3">
+                          <img src="../../assets/images/icon_eSocial.svg" alt="">
+                        </div>
+                        <div class="col-9">
+                          <span>eSocial</span>
+                        </div>
                       </div>
-                      <div class="col-9">
-                        <span>eSocial</span>
-                      </div>
-                    </div>
-                </button>
+                  </button>
+                </a>
               </li>
             </ul>
           </div>
@@ -76,19 +77,21 @@
               <p class="h5">Sua clínica especializada em</p>
               <p class="h2">Saúde e Segurança</p>
               <p class="h2 mb-4">do Trabalho</p>
-              <button type="button" class="btn btn-custom bg-green px-4 color-light">
-                <div class="row">
-                  <div class="py-2 col-9" >
-                    <span class="h6 fw-bold">Fale conosco</span>
+              <a href="https://linktr.ee/Cameso">
+                <button type="button" class="btn btn-custom bg-green px-4 color-light">
+                  <div class="row">
+                    <div class="py-2 col-9" >
+                      <span class="h6 fw-bold">Fale conosco</span>
+                    </div>
+                    <div class="my-auto col-3">
+                      <img src="../../assets/images/icon_Whatsapp.svg" alt="Whatsapp">
+                    </div>
                   </div>
-                  <div class="my-auto col-3">
-                    <img src="../../assets/images/icon_Whatsapp.svg" alt="Whatsapp">
-                  </div>
-                </div>
-              </button>
+                </button>
+              </a>
             </div>
           </div>
-          <div class="col-5 text-right">
+          <div class="col-5 text-right p-0">
             <img class="w-75" src="../../assets/images/img_inicio.png" alt="Profissional da Saúde">
           </div>
         </div>
@@ -257,9 +260,11 @@
               </p>
               <div class="bg-dark pb-0">
                   <div class="gd-green pb-4 rounded-bottom">
-                      <button type="button" class="btn btn-light color-dark shadow-lg">
-                          Fale Conosco
-                      </button>
+                      <a href="https://linktr.ee/Cameso" target="_blank">
+                        <button type="button" class="btn btn-light color-dark shadow-lg">
+                            <span class="fw-bold">Fale Conosco</span>
+                        </button>
+                      </a>
                   </div>
               </div>
           </div>
@@ -294,48 +299,21 @@
                   </div>
                   <ul class="list-inline">
                     <li class="list-inline-item p-0">
-                      <a href="" class="p-0">
+                      <a href="https://contate.me/cameso" target="_blank">
                         <img src="../../assets/images/Whatsapp.svg" alt="">
                       </a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="">
+                      <a href="https://www.instagram.com/cameso_clinica_sst/" target="_blank">
                         <img  src="../../assets/images/Instagram.svg" alt="">
                       </a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="">
-                        <img src="../../assets/images/Facebook.svg" alt="">
-                      </a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a href="">
+                      <a href="https://www.youtube.com/@camesomedicinaesegurancado7281/streams?sub_confirmation=1" target="_blank">
                         <img src="../../assets/images/Youtube.svg" alt="">
                       </a>
                     </li>
                   </ul>
-                  <!--<div class="row">
-                      <div class="col-3">
-                          <a href="">
-                              <img class="me-2" src="../../assets/images/Whatsapp.svg" alt="">
-                          </a>
-                      </div>
-                      <div class="col-3">
-                          <a href="">
-                              <img class="me-2" src="../../assets/images/Instagram.svg" alt="">
-                          </a>
-                      </div>
-                      <div class="col-3">
-                          <a href="">
-                              <img class="me-2" src="../../assets/images/Facebook.svg" alt="">
-                          </a>
-                      </div>
-                      <div class="col-3">
-                          <a href="">
-                              <img class="me-2" src="../../assets/images/Youtube.svg" alt="">
-                          </a>
-                      </div>
-                  </div>-->
                 </div>
               </div>
               <div class="col-4 mt-4">
@@ -370,15 +348,17 @@
                 </div>
               </div>
               <div class="col-4 mt-4">
-                  <form class="px-5">
+                  <form action="https://api.staticforms.xyz/submit" method="POST" class="px-5">
+                      <input type="hidden" name="accessKey" value="6c8535a9-8f62-4555-a3d2-2a21f0e7924e">
+                      <input type="hidden" name="redirectTo" value="">
                       <div class="mb-3">
-                        <input type="text" placeholder="Nome da empresa" class="form-control fw-300" id="exampleInputCompany">
+                        <input type="text" placeholder="Nome da empresa" name="name" class="form-control fw-300" id="exampleInputCompany" required>
                       </div>
                       <div class="mb-3">
-                        <input type="text" placeholder="Telefone para contato" class="form-control fw-300" id="exampleInputPhone">
+                        <input type="text" placeholder="Telefone para contato" name="phone" class="form-control fw-300" id="exampleInputPhone" minlength="10" required>
                       </div>
                       <div class="mb-3">
-                          <input type="email" placeholder="Seu e-mail" class="form-control fw-300" id="exampleInputEmail">
+                          <input type="email" placeholder="Seu e-mail" name="email" class="form-control fw-300" id="exampleInputEmail" required>
                       </div>
                       <button type="submit" class="btn btn-custom bg-green color-light float-end">Solicitar</button>
                   </form>
@@ -391,7 +371,6 @@
           </div>
       </div>
     </footer>
-    
     
     <script src="../../../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="../../../node_modules/@popperjs/core/dist/umd/popper.min.js"></script>

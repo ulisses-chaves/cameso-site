@@ -4,64 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Treinamentos</title>
+    <title>Nossos Serviços - Treinamentos</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../assets/main.scss">
-    <link rel="stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../assets/styles/general.css">
 </head>
 <body>
-    <div class="container">
-        <a class="float-end text-decoration-none color-dark" href="">
-          <span style="text-align: center;" class="text-right me-2">Página do cliente</span>
-          <img src="../../assets/images/icon_user.svg" alt="">
-        </a>
+    <div class="container-fluid">
+        <div class="container my-2">
+          <a class="text-decoration-none  color-dark" href="">
+            <p class="text-end m-0">
+              Página do cliente 
+              <img class="ms-1" src="../../assets/images/icon_user.svg" alt="">
+            </p>
+          </a>
+        </div>
+        <div class="w-100 mt-2" style="border-bottom: 0.3px solid #D6D6D6;"></div>
     </div>
-    <div class="w-100 mt-2" style="border-bottom: 0.3px solid #D6D6D6;"><br/></div>
 
     <div class="container">
-      <nav class=" navbar navbar-expand-lg bg-body-tertiary">
-        <a class="navbar-brand" href="#">
-          <img src="../../assets/images/Logo Dark.svg" alt="logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Início</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link color-dark fw-bold" style="font-weight: 300;" href="#">Nossos Serviços</a>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link" href="#">Segurança do Trabalho</a>
-            </li>
-            <li class="nav-item">
-              <button type="button" class="btn btn-outline-success btn-custom-outline color-dark">
-                  <div class="row">
-                    <div class="col-3">
-                      <img src="../../assets/images/icon_eSocial.svg" alt="">
-                    </div>
-                    <div class="col-9">
-                      <span>eSocial</span>
-                    </div>
-                  </div>
-              </button>
-            </li>
-          </ul>
-        </div>
-      </nav>
+        <nav class=" navbar navbar-expand-lg bg-body-tertiary">
+          <a class="navbar-brand" href="#">
+            <img src="../../assets/images/Logo Dark.svg" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index/index.html">Início</a>
+              </li>
+              <li class="nav-item dropdown mx-3">
+                  <a class="nav-link dropdown-toggle color-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Nossos Serviços
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="./exams.html">Exames</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item bg-green color-white" href="./trainings.html">Treinamentos</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item me-3">
+                  <a class="nav-link" href="../security/security.html">Segurança do Trabalho</a>
+                </li>
+                <li class="nav-item">
+                  <a href="../esocial/esocial.html">
+                    <button type="button" class="btn btn-outline-success btn-custom-outline color-dark">
+                        <div class="row">
+                          <div class="col-3">
+                            <img src="../../assets/images/icon_eSocial.svg" alt="">
+                          </div>
+                          <div class="col-9">
+                            <span>eSocial</span>
+                          </div>
+                        </div>
+                    </button>
+                  </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
     </div>
 
     <div class="container mb-5">
         <div class="row">
-          <div class="col-7 my-auto pe-auto">
-            <div>
+          <div class="col-6 my-auto pe-auto">
+            <div class="ps-5">
                 <p class="h3 fw-300">
                     Realizamos treinamentos de
                 </p>
@@ -71,13 +84,16 @@
                 <p class="h3 fw-300 mb-5">
                     do trabalhador
                 </p>
+                <p class="h5 mb-1">
+                    Saiba mais
+                </p>
                 <p class="h5">
-                    Saiba mais logo abaixo
+                    logo abaixo
                 </p>
             </div>
           </div>
-          <div class="col-5">
-            <img class="w-75" src="../../assets/images/img_treinamentos.png" alt="Profissional da Treinamentos">
+          <div class="col-6 px-0">
+            <img class="w-100" src="../../assets/images/img_treinamentos.png" alt="Profissional da Treinamentos">
           </div>
         </div>
     </div>
@@ -115,7 +131,7 @@
         </ul>
     </div>
 
-    <footer class="bg-dark color-light">
+    <footer class="container-fluid bg-dark color-light">
         <div class="row bg-light">
             <div class="col-3 p-0">
                 <div class="h-50"></div>
@@ -130,9 +146,11 @@
                 </p>
                 <div class="bg-dark pb-0">
                     <div class="gd-green pb-4 rounded-bottom">
-                        <button type="button" class="btn btn-light color-dark shadow-lg">
-                            Fale Conosco
-                        </button>
+                        <a href="https://linktr.ee/Cameso" target="_blank">
+                          <button type="button" class="btn btn-light color-dark shadow-lg">
+                              <span class="fw-bold">Fale Conosco</span>
+                          </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -144,6 +162,7 @@
         <div class="container mt-5">
             <div class="row">
                 <div class="col-4">
+                  <div class="px-4">
                     <img class="mb-3" src="../../assets/images/Logo Light.svg" alt="logo">
                     <p class="fw-300">
                         A Cameso é uma clínica de Saúde e Segurança do Trabalho com 12 anos de experiência e assorando em vários estados do Brasil.
@@ -164,30 +183,27 @@
                             </span>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-3">
-                            <a href="">
-                                <img class="me-2" src="../../assets/images/Whatsapp.svg" alt="">
-                            </a>
-                        </div>
-                        <div class="col-3">
-                            <a href="">
-                                <img class="me-2" src="../../assets/images/Instagram.svg" alt="">
-                            </a>
-                        </div>
-                        <div class="col-3">
-                            <a href="">
-                                <img class="me-2" src="../../assets/images/Facebook.svg" alt="">
-                            </a>
-                        </div>
-                        <div class="col-3">
-                            <a href="">
-                                <img class="me-2" src="../../assets/images/Youtube.svg" alt="">
-                            </a>
-                        </div>
-                    </div>
+                    <ul class="list-inline">
+                      <li class="list-inline-item p-0">
+                        <a href="https://contate.me/cameso" target="_blank">
+                          <img src="../../assets/images/Whatsapp.svg" alt="">
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="https://www.instagram.com/cameso_clinica_sst/" target="_blank">
+                          <img  src="../../assets/images/Instagram.svg" alt="">
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="https://www.youtube.com/@camesomedicinaesegurancado7281/streams?sub_confirmation=1" target="_blank">
+                          <img src="../../assets/images/Youtube.svg" alt="">
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
                 <div class="col-4 mt-4">
+                  <div class="px-4">
                     <p class="h5 fw-bold">
                         Unidades
                     </p>
@@ -215,17 +231,20 @@
                             </p>
                         </div>
                     </div>
+                  </div>
                 </div>
                 <div class="col-4 mt-4">
-                    <form>
+                    <form action="https://api.staticforms.xyz/submit" method="POST" class="px-5">
+                        <input type="hidden" name="accessKey" value="6c8535a9-8f62-4555-a3d2-2a21f0e7924e">
+                        <input type="hidden" name="redirectTo" value="">
                         <div class="mb-3">
-                          <input type="text" placeholder="Nome da empresa" class="form-control fw-300" id="exampleInputCompany">
+                          <input type="text" placeholder="Nome da empresa" name="name" class="form-control fw-300" id="exampleInputCompany" required>
                         </div>
                         <div class="mb-3">
-                          <input type="text" placeholder="Telefone para contato" class="form-control fw-300" id="exampleInputPhone">
+                          <input type="text" placeholder="Telefone para contato" name="phone" class="form-control fw-300" id="exampleInputPhone" minlength="10" required>
                         </div>
                         <div class="mb-3">
-                            <input type="email" placeholder="Seu e-mail" class="form-control fw-300" id="exampleInputEmail">
+                            <input type="email" placeholder="Seu e-mail" name="email" class="form-control fw-300" id="exampleInputEmail" required>
                         </div>
                         <button type="submit" class="btn btn-custom bg-green color-light float-end">Solicitar</button>
                     </form>
@@ -237,7 +256,10 @@
                 </p>
             </div>
         </div>
-    </footer>
-    
+      </footer>
+
+    <script src="../../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../../../node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="../../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
