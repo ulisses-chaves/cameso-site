@@ -15,36 +15,36 @@
 </head>
 <body class="color-dark">
     <div class="container-fluid">
-      <div class="container my-2">
-        <a class="text-decoration-none  color-dark" href="">
-          <p class="text-end m-0">
-            Página do cliente 
-            <img class="ms-1" src="../../assets/images/icon_user.svg" alt="">
-          </p>
-        </a>
+        <div class="container my-2">
+          <a class="text-decoration-none color-dark" href="">
+            <h6 class="text-end my-3">
+              Página do cliente 
+              <img class="ms-1" src="../../assets/images/icon_user.svg" alt="">
+            </h6>
+          </a>
+        </div>
+        <div class="w-100 mt-2" style="border-bottom: 0.3px solid #D6D6D6;"></div>
       </div>
-      <div class="w-100 mt-2" style="border-bottom: 0.3px solid #D6D6D6;"></div>
-    </div>
-
-    <div class="container">
-      <nav class=" navbar navbar-expand-lg bg-body-tertiary">
-        <a class="navbar-brand" href="#">
-          <img src="../../assets/images/Logo Dark.svg" alt="logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="../index/index.html">Início</a>
-            </li>
-            <li class="nav-item dropdown mx-3">
+  
+      <div class="container mb-5 mb-md-0">
+        <nav class=" navbar navbar-expand-lg bg-body-tertiary">
+          <a class="navbar-brand" href="#">
+            <img src="../../assets/images/Logo Dark.svg" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index/index.html">Início</a>
+              </li>
+              <li class="nav-item dropdown mx-lg-3">
                 <a class="nav-link dropdown-toggle color-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Nossos Serviços
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item bg-green color-white" href="./exams.html">Exames</a></li>
+                  <li><a class="dropdown-item bg-green color-light" href="./exams.html">Exames</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="./trainings.html">Treinamentos</a></li>
                 </ul>
@@ -52,7 +52,7 @@
               <li class="nav-item me-3">
                 <a class="nav-link" href="../security/security.html">Segurança do Trabalho</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item my-2 my-lg-0">
                 <a href="../esocial/esocial.html">
                   <button type="button" class="btn btn-outline-success btn-custom-outline color-dark">
                       <div class="row">
@@ -65,25 +65,29 @@
                       </div>
                   </button>
                 </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+              </li>
+              <li class="nav-item d-block d-lg-none">
+                <div class="w-100 mt-2" style="border-bottom: 0.3px solid #D6D6D6;"></div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-          <div class="col-6 my-auto pe-auto">
-            <div>
-              <p class="h2">Agendamento fácil e rápido</p>
-              <p class="h5 mb-4">A Cameso conta com um sistema fácil e prático para encontrar o horário perfeito para os exames dos seus funcionários!</p>
+          <div class="col-5 col-md-6 my-auto ps-md-5">
+            <div class="ps-md-5">
+              <h1 class="display-5 fw-bold">Agendamento fácil e rápido</h1>
+              <h6 class="fw-300 mb-4">A Cameso conta com um sistema fácil e prático para encontrar o horário perfeito para os exames dos seus funcionários!</h6>
               <button type="button" class="btn bg-green btn-custom shadow-lg px-4 py-2 color-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <span class="h6 fw-bold">Agende agora</span>
               </button>
             </div>
           </div>
-          <div class="col-6 p-0">
-            <img class="w-100" src="../../assets/images/img_exames.png" alt="Profissional da Saúde">
+          <div class="col-7 col-md-6 p-0">
+            <img class="w-100 d-none d-md-block" src="../../assets/images/img_exames.png" alt="Profissional da Saúde">
+            <img class="w-100 d-block d-md-none" src="../../assets/images/img_exames_md.png" alt="Profissional da Saúde">
           </div>
         </div>
     </div>
@@ -92,18 +96,18 @@
         <div class="row mb-5">
             <div class="col w-75 mt-5 me-auto">
                 <div class="w-75 ps-5 mt-5 me-5 float-end">
-                <p class="h3">
+                <h2 class="fw-bold mb-4">
                     Exames clínicos e complementares
-                </p>
-                <p>
+                </h2>
+                <h6>
                     Dispomos de uma estrutura completa para realização dos exames clínicos e complementares, proporcionando aos nossos clientes conforto e agilidade operacional.
-                </p>
-                <p>
+                </h6>
+                <h6 class="my-3">
                     Entre em contato conosco e confira os Pacotes Especiais para Empresas com atendimento in company, onde realizamos o atendimento com data e horário marcado para facilitar seu dia a dia.
-                </p>
-                <p>
+                </h6>
+                <h6>
                     Conheça um pouco mais sobre Exames Clínicos e Complementares:
-                </p>
+                </h6>
             </div>
             </div>
             <div class="col p-0">
@@ -111,350 +115,350 @@
             </div>
         </div>
     </div>    
-    <div class="container">
-        <div class="text-center mb-5">
-            <p class="h4">
+    <div class="container text-center text-lg-start ">
+        <div class="mb-5">
+            <h4 class="text-center fw-bold">
                 Avaliação clínica ocupacional
-            </p>
-            <p>
+            </h4>
+            <h6 class="text-center">
                 Anamneses e exame físico
-            </p>
+            </h6>
         </div>
         <div class="px-5">
-            <p class="h5 fw-bold">
+            <h5 class="fw-bold">
                 Exame admissional
-            </p>
-            <p class="h6">
+            </h5>
+            <h6 class="fw-300">
                 Deve ser realizado em até dez dias antes que o empregado assuma suas atividades.
-            </p>
+            </h6>
         </div>
         <div class="w-100 my-4" style="border-bottom: 0.3px solid #D6D6D6;"></div>
         <div class="px-5">
-            <p class="h5 fw-bold">
+            <h5 class="fw-bold">
                 Exame demissional
-            </p>
-            <p class="h6">
+            </h5>
+            <h6 class="fw-300">
                 Deve ser realizado em até dez dias contados do término do contrato, podendo ser dispensado caso o exame clínico ocupacional mais recente tenha sido realizado há menos de 135 dias para empresas de grau de risco 1 ou 2, ou 90 dias, para empresas de grau de risco 3 ou 4.
-            </p>
+            </h6>
         </div>
         <div class="w-100 my-4" style="border-bottom: 0.3px solid #D6D6D6;"></div>
         <div class="px-5">
-            <p class="h5 fw-bold">
+            <h5 class="fw-bold">
                 Exame periódico
-            </p>
-            <p class="h6">
+            </h5>
+            <h6 class="fw-300">
                 Exames realizados anualmente de acordo com a função e riscos de exposição, seguindo a periodicidade definida no Programa de Controle Médico de Saúde Ocupacional (PCMSO).
-            </p>
+            </h6>
         </div>
         <div class="w-100 my-4" style="border-bottom: 0.3px solid #D6D6D6;"></div>
         <div class="px-5">
-            <p class="h5 fw-bold">
+            <h5 class="fw-bold">
                 Exame de Retorno ao Trabalho
-            </p>
-            <p class="h6">
+            </h5>
+            <h6 class="fw-300">
                 Deve ser realizado antes que o empregado reassuma suas funções, quando ausente por período igual ou superior a trinta dias por motivo de doença ou acidente, de natureza ocupacional ou não.
-            </p>
+            </h6>
         </div>
         <div class="w-100 my-4" style="border-bottom: 0.3px solid #D6D6D6;"></div>
         <div class="px-5 mb-5">
-            <p class="h5 fw-bold">
+            <h5 class="fw-bold">
                 Exame para Mudança de Risco Ocupacional
-            </p>
-            <p class="h6">
+            </h5>
+            <h6 class="fw-300">
                 Deve ser realizado antes da data da mudança, adequando-se o controle médico aos novos riscos.
-            </p>
+            </h6>
         </div>
     </div>
 
     <div class="container">
         <div class="text-center mb-5">
-            <p class="h4">
+            <h4 class="fw-bold">
                 Exames complementares e suas indicações
-            </p>
-            <p class="color-grey">
+            </h4>
+            <h6 class="color-grey">
                 Os exames complementares devem ser realizados de acordo com o PCMSO da empresa.
-            </p>
+            </h6>
         </div>
         
         <div class="row mb-5">
-            <div class="col">
+            <div class="col-lg-4">
                 <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
                     <div class="card-body">
-                        <p class="card-title h5 fw-bold">
+                        <h5 class="card-title fw-bold fw-bold mb-3">
                             Acuidade visual
-                        </p>
+                        </h5>
                         <p class="card-text h6">
                             O eSocial é um sistema eletrônico do governo brasileiro que tem como objetivo unificar e simplificar o envio de informações trabalhistas, previ-denciárias e fiscais pelas empresas.
-                        </p>
+                        </h5>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-lg-4 my-4 my-lg-0">
                 <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
                     <div class="card-body">
-                        <p class="card-title h5 fw-bold">
+                        <h5 class="card-title fw-bold fw-bold mb-3">
                             Audiometria Tonal Ocupacional
-                        </p>
+                        </h5>
                         <p class="card-text h6">
                             Visa prevenir o surgimento e/ou agravamento da perda auditiva induzida por níveis de pressão sonora elevados e a conservação da saúde auditiva dos trabalhadores.
-                        </p>
+                        </h5>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-lg-4">
                 <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
                     <div class="card-body">
-                        <p class="card-title h5 fw-bold">
+                        <h5 class="card-title fw-bold fw-bold mb-3">
                             Ácido hipúrico
-                        </p>
+                        </h5>
                         <p class="card-text h6">
                             É empregado na monitorização biológica de trabalhadores expostos ocupacionalmente aos solventes.
-                        </p>
+                        </h5>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="row mb-5">    
-            <div class="col">
+            <div class="col-lg-4">
                 <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
                     <div class="card-body">
-                        <p class="card-title h5 fw-bold">
+                        <h5 class="card-title fw-bold fw-bold mb-3">
                             Ácido metil hipúrico
-                        </p>
+                        </h5>
                         <p class="card-text h6">
                             É empregado na monitorização biológica de trabalhadores expostos ocupacionalmente aos solventes.
-                        </p>
+                        </h5>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-lg-4">
                 <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
                     <div class="card-body">
-                        <p class="card-title h5 fw-bold">
+                        <h5 class="card-title fw-bold fw-bold mb-3">
                             Hemograma completo
-                        </p>
+                        </h5>
                         <p class="card-text h6">
                             Avalia as células sanguíneas de um paciente, ou seja, as da série branca e vermelha, contagem de plaquetas, reticulócitos e índices hematológicos. O exame é requerido pelo médico para diagnosticar ou controlar a evolução de uma doença.
-                        </p>
+                        </h5>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-lg-4">
                 <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
                     <div class="card-body">
-                        <p class="card-title h5 fw-bold">
+                        <h5 class="card-title fw-bold fw-bold mb-3">
                             Espirometria
-                        </p>
+                        </h5>
                         <p class="card-text h6">
                             Visa prevenir o surgimento e/ou agravamento de patologias pulmonares.
-                        </p>
+                        </h5>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="row mb-5">
-            <div class="col">
+            <div class="col-lg-4">
                 <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
                     <div class="card-body">
-                        <p class="card-title h5 fw-bold">
+                        <h5 class="card-title fw-bold fw-bold mb-3">
                             Raio-x do tórax (PA)
-                        </p>
+                        </h5>
                         <p>
                             Padrão OIT
-                        </p>
+                        </h5>
                         <p class="card-text h6">
                             É empregado na monitorização biológica de trabalhadores expostos ocupacionalmente aos solventes.
-                        </p>
+                        </h5>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-lg-4">
                 <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
                     <div class="card-body">
-                        <p class="card-title h5 fw-bold">
+                        <h5 class="card-title fw-bold fw-bold mb-3">
                             Raio-x de coluna lombo-sacra
-                        </p>
+                        </h5>
                         <p class="card-text h6">
                             Visa prevenir o surgimento de modificações de eixo da coluna, lesões ósseas e perda de cartilagem.
-                        </p>
+                        </h5>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-lg-4">
                 <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
                     <div class="card-body">
-                        <p class="card-title h5 fw-bold">
+                        <h5 class="card-title fw-bold fw-bold mb-3">
                             Glicemia
-                        </p>
+                        </h5>
                         <p class="card-text h6">
                             Para prevenção de acidentes do trabalho para atividades perigosas. Profissionais com alterações na glicemia podem apresentar diversos tipos de mal-estar, aumentando o risco de acidentes do trabalho.
-                        </p>
+                        </h5>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="text-center mb-5">
-            <button type="button" class="btn text-center h5"><img src="../../assets/images/Vector-down.svg"> Mostrar mais exames</button>
+        <div class="text-center mb-5" id="show-more-button">
+            <button type="button" onclick="showMore()" class="btn text-center h5"><img src="../../assets/images/Vector-down.svg"> Mostrar mais exames</button>
         </div>
-        <div class="d-none">
+        <div class="d-none" id="hidden-div">
             <div class="row mb-5">
-                <div class="col">
+                <div class="col-lg-4">
                     <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
                         <div class="card-body">
-                            <p class="card-title h5 fw-bold">
+                            <h5 class="card-title fw-bold fw-bold mb-3">
                                 Eletrocardiograma (ECG)
-                            </p>
+                            </h5>
                             <p class="card-text h6">
                                 Exame cardiológico do funcionário que visa avaliar aptidão para a função e prevenção de acidentes do trabalho.
-                            </p>
+                            </h5>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-lg-4">
                     <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
                         <div class="card-body">
-                            <p class="card-title h5 fw-bold">
+                            <h5 class="card-title fw-bold fw-bold mb-3">
                                 Eletroencefalograma (EGG)
-                            </p>
+                            </h5>
                             <p class="card-text h6">
                                 Exame neurológico que avaliar aptidão para a função e prevenção de acidentes do trabalho.
-                            </p>
+                            </h5>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-lg-4">
                     <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
                         <div class="card-body">
-                            <p class="card-title h5 fw-bold">
+                            <h5 class="card-title fw-bold fw-bold mb-3">
                                 Avaliação psicossocial
-                            </p>
+                            </h5>
                             <p class="card-text h6">
                                 Procedimento que visa avaliar (no sentido de analisar, compreender, esclarecer) a dinâmica dos processos psicológicos representativos de um indivíduo.
-                            </p>
+                            </h5>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row mb-5">
-                <div class="col">
+                <div class="col-lg-4">
                     <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
                         <div class="card-body">
-                            <p class="card-title h5 fw-bold">
+                            <h5 class="card-title fw-bold fw-bold mb-3">
                                 Níquel urinário
-                            </p>
+                            </h5>
                             <p class="card-text h6">
                                 Controle de monitorização biológica a exposição a níquel.
-                            </p>
+                            </h5>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-lg-4">
                     <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
                         <div class="card-body">
-                            <p class="card-title h5 fw-bold">
+                            <h5 class="card-title fw-bold fw-bold mb-3">
                                 Cobre urinário
-                            </p>
+                            </h5>
                             <p class="card-text h6">
                                 Controle de monitorização biológica a exposição a cobre.
-                            </p>
+                            </h5>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-lg-4">
                     <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
                         <div class="card-body">
-                            <p class="card-title h5 fw-bold">
+                            <h5 class="card-title fw-bold fw-bold mb-3">
                                 Uréia
-                            </p>
+                            </h5>
                             <p class="card-text h6">
                                 A dosagem da ureia no sangue é utilizada para avaliar a função renal, ou para confirmar e/ou avaliar a evolução de uma patologia que afete a função dos rins. Ajuda a avaliar a intensidade de uma desidratação.
-                            </p>
+                            </h5>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row mb-5">
-                <div class="col">
+                <div class="col-lg-4">
                     <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
                         <div class="card-body">
-                            <p class="card-title h5 fw-bold">
+                            <h5 class="card-title fw-bold fw-bold mb-3">
                                 Transaminase oxalacética (TGO)
-                            </p>
+                            </h5>
                             <p class="card-text h6">
                                 Detecção e prevenção de alterações hepáticas decorrentes da exposição a tintas e solventes. Avalia a quantidade de aminotransferase de aspartate no sangue, sendo essencial para o diagnóstico de doenças hepáticas.
-                            </p>
+                            </h5>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-lg-4">
                     <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
                         <div class="card-body">
-                            <p class="card-title h5 fw-bold">
+                            <h5 class="card-title fw-bold fw-bold mb-3">
                                 Transaminase pirúvica (TGP)
-                            </p>
+                            </h5>
                             <p class="card-text h6">
                                 Detecção e prevenção de alterações hepáticas decorrentes da exposição a tintas e solventes. Avalia a quantidade de alanina amino transferase no sangue, sendo essencial para o diagnóstico de doenças hepáticas.
-                            </p>
+                            </h5>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-lg-4">
                     <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
                         <div class="card-body">
-                            <p class="card-title h5 fw-bold">
+                            <h5 class="card-title fw-bold fw-bold mb-3">
                                 Fenol urinário
-                            </p>
+                            </h5>
                             <p class="card-text h6">
                                 Avaliar a exposição ao fenol que é facilmente absorvido através da mucosa, pele e excretado pela urina. É corrosivo, levando à severa ulceração, queimaduras e intoxicações crônicas tais como transtornos digestivos e disfunção do sistema nervoso.
-                            </p>
+                            </h5>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row mb-5">
-                <div class="col">
+                <div class="col-lg-4">
                     <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
                         <div class="card-body">
-                            <p class="card-title h5 fw-bold">
+                            <h5 class="card-title fw-bold fw-bold mb-3">
                                 Creatina
-                            </p>
+                            </h5>
                             <p class="card-text h6">
                                 Avaliar a função renal, particularmente a forma de excreção de creatinina pelos rins e, por conseguinte, os produtos do metabolismo das proteínas. É também utilizado para controlar a evolução e o tratamento das patologias renais.
-                            </p>
+                            </h5>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-lg-4">
                     <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
                         <div class="card-body">
-                            <p class="card-title h5 fw-bold">
+                            <h5 class="card-title fw-bold fw-bold mb-3">
                                 Acido delta amino levulinico (ALAU)
-                            </p>
+                            </h5>
                             <p class="card-text h6">
                                 Controle de monitorização biológica a exposição a chumbo.
-                            </p>
+                            </h5>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-lg-4">
                     <div class="card shadow-lg mx-4 p-4 h-100" style="border: none;">
                         <div class="card-body">
-                            <p class="card-title h5 fw-bold">
+                            <h5 class="card-title fw-bold fw-bold mb-3">
                                 Teste de Romberg
-                            </p>
+                            </h5>
                             <p class="card-text h6">
                                 Análise do equilíbro corporal, recomenda-se a realização de uma triagem otoneurológica dos funcionários submetidos a trabalhos em altura e com risco de queda, para prevenir que acidentes ocorram.
-                            </p>
+                            </h5>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="text-center mb-5 d-none">
-        <button type="button" class="btn text-center h5"><img src="../../assets/images/Vector-up.svg"> Mostrar menos exames</button>
+    <div class="text-center mb-5 d-none" id="show-less-button">
+        <button type="button" onclick="showLess()" class="btn text-center h5"><img src="../../assets/images/Vector-up.svg"> Mostrar menos exames</button>
     </div>
 
     <footer class="container-fluid bg-dark color-light">
@@ -587,40 +591,41 @@
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-            <h5 class="modal-title color-dark" id="exampleModalLabel">Agende agora</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <form action="https://api.staticforms.xyz/submit" method="POST" class="px-5"></form>
-                <div class="modal-body">
-                    <input type="hidden" name="accessKey" value="6c8535a9-8f62-4555-a3d2-2a21f0e7924e">
-                    <input type="hidden" name="redirectTo" value="">
-                    <div class="mb-3">
-                    <input type="text" placeholder="Nome da empresa" name="name" class="form-control fw-300" id="exampleInputCompany" required>
-                    </div>
-                    <div class="mb-3">
-                    <input type="text" placeholder="Telefone para contato" name="phone" class="form-control fw-300" id="exampleInputPhone" minlength="10" required>
-                    </div>
-                    <div class="mb-3">
-                        <input type="email" placeholder="Seu e-mail" name="email" class="form-control fw-300" id="exampleInputEmail" required>
-                    </div>
-                    <div class="mb-3">
-                        <textarea class="form-control fw-300" name="message" placeholder="Deixe sua mensagem" id="exampleInputMessage"></textarea>
-                    </div>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title color-dark" id="exampleModalLabel">Agende agora</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-footer">
-                <button type="submit" class="btn bg-green btn-custom shadow-lg px-4 py-2 color-light">
-                    <span class="h6 fw-bold">Agendar</span>
-                </button>
+                <form action="https://api.staticforms.xyz/submit" method="POST" class="px-5"></form>
+                    <div class="modal-body">
+                        <input type="hidden" name="accessKey" value="6c8535a9-8f62-4555-a3d2-2a21f0e7924e">
+                        <input type="hidden" name="redirectTo" value="">
+                        <div class="mb-3">
+                            <input type="text" placeholder="Nome da empresa" name="name" class="form-control fw-300" id="exampleInputCompany" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" placeholder="Telefone para contato" name="phone" class="form-control fw-300" id="exampleInputPhone" minlength="10" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" placeholder="Seu e-mail" name="email" class="form-control fw-300" id="exampleInputEmail" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control fw-300" name="message" placeholder="Deixe sua mensagem" id="exampleInputMessage"></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn bg-green btn-custom shadow-lg px-4 py-2 color-light">
+                            <span class="h6 fw-bold">Agendar</span>
+                        </button>
+                    </div>
+                </form>
             </div>
-        </form>
-        </div>
         </div>
     </div>
 
     <script src="../../../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="../../../node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
     <script src="../../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./exams.js"></script>
 </body>
 </html>
