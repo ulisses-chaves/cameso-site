@@ -155,7 +155,10 @@ body {
     font-weight: 300;
 }
 
-
+/* Hover/Focus */
+.dropdown-item:focus {
+    background-color: $green;
+}
 .btn-custom:hover {
     border-color: $green;
     color: $green
@@ -165,4 +168,6 @@ body {
     border-color: $green;
     color: $light;
 }
-$dropdown-bg:$dark;
+.link-custom:hover {
+    color: $green
+}

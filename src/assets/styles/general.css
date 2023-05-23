@@ -146,6 +146,11 @@ body {
   font-weight: 300;
 }
 
+/* Hover/Focus */
+.dropdown-item:focus {
+  background-color: #42C059;
+}
+
 .btn-custom:hover {
   border-color: #42C059;
   color: #42C059;
@@ -155,4 +160,8 @@ body {
   background-color: #42C059;
   border-color: #42C059;
   color: #F6F8FE;
+}
+
+.link-custom:hover {
+  color: #42C059;
 }/*# sourceMappingURL=general.css.map */

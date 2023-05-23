@@ -16,7 +16,7 @@
 <body class="color-dark">
     <div class="container-fluid">
         <div class="container my-2">
-          <a class="text-decoration-none color-dark" href="">
+          <a class="text-decoration-none color-dark link-custom" href="https://app.sgg.net.br/" target="_blank">
             <h6 class="text-end my-3">
               Página do cliente 
               <img class="ms-1" src="../../assets/images/icon_user.svg" alt="">
@@ -93,26 +93,25 @@
     </div>
     
     <div class="container-fluid">
-        <div class="row mb-lg-5">
-            <div class="col w-75 mt-5 me-auto">
-                <div class="w-75 ps-5 mt-5 me-5 float-end">
-                <h2 class="fw-bold mb-4">
-                    Exames clínicos e complementares
-                </h2>
-                <h6>
-                    Dispomos de uma estrutura completa para realização dos exames clínicos e complementares, proporcionando aos nossos clientes conforto e agilidade operacional.
-                </h6>
-                <h6 class="my-3">
-                    Entre em contato conosco e confira os Pacotes Especiais para Empresas com atendimento in company, onde realizamos o atendimento com data e horário marcado para facilitar seu dia a dia.
-                </h6>
-                <h6>
-                    Conheça um pouco mais sobre Exames Clínicos e Complementares:
-                </h6>
+        <div class="row align-items-center mb-5">
+            <div class="col-lg-6 mt-5 me-auto">
+                <div class="ps-lg-5 ms-lg-5 mt-lg-5 me-lg-5 float-lg-end text-center text-lg-start">
+                    <h2 class="fw-bold mb-4">
+                        Exames clínicos e complementares
+                    </h2>
+                    <h6>
+                        Dispomos de uma estrutura completa para realização dos exames clínicos e complementares, proporcionando aos nossos clientes conforto e agilidade operacional.
+                    </h6>
+                    <h6 class="my-3">
+                        Entre em contato conosco e confira os Pacotes Especiais para Empresas com atendimento in loco, realizamos o atendimento na sua empresa com data e horário marcado o dia a dia dos seus colaboradores.
+                    </h6>
+                    <h6>
+                        Conheça um pouco mais sobre Exames Clínicos e Complementares:
+                    </h6>
+                </div>
             </div>
-            </div>
-            <div class="col p-0">
-                <img class="w-100 d-none d-md-block" src="../../assets/images/Mask group.png" alt="Profissional da Saúde">
-                <img class="w-100 d-block d-md-none" src="../../assets/images/Mask group-MOBILE.png" alt="Profissional da Saúde">
+            <div class="col-lg-6 p-0">
+                <img class="w-100 d-none d-lg-block" src="../../assets/images/Mask group.png" alt="Profissional da Saúde">
             </div>
         </div>
     </div>    
@@ -496,7 +495,7 @@
                   <div class="px-4">
                     <img class="mb-3" src="../../assets/images/Logo Light.svg" alt="logo">
                     <p class="fw-300">
-                        A Cameso é uma clínica de Saúde e Segurança do Trabalho com 12 anos de experiência e assorando em vários estados do Brasil.
+                        A Cameso é uma clínica de Saúde e Segurança do Trabalho com 12 anos de experiência e assessorando em vários estados do Brasil.
                     </p>
                     <div class="row">
                         <div class="col">
@@ -567,15 +566,15 @@
                 <div class="col-lg-4 mt-4">
                     <form action="https://api.staticforms.xyz/submit" method="POST" class="px-5">
                         <input type="hidden" name="accessKey" value="6c8535a9-8f62-4555-a3d2-2a21f0e7924e">
-                        <input type="hidden" name="redirectTo" value="">
+                        <input type="hidden" name="redirectTo" value="https://www.cameso.com.br/sucesso/orcamento">
                         <div class="mb-3">
-                          <input type="text" placeholder="Nome da empresa" name="name" class="form-control fw-300" id="exampleInputCompany" required>
+                          <input type="text" placeholder="Nome da empresa" name="$nomeEmpresa" class="form-control fw-300" id="exampleInputCompany" required>
                         </div>
                         <div class="mb-3">
-                          <input type="text" placeholder="Telefone para contato" name="phone" class="form-control fw-300" id="exampleInputPhone" minlength="10" required>
+                          <input type="text" placeholder="Telefone para contato" name="$telefoneEmpresa" class="form-control fw-300" id="exampleInputPhone" minlength="10" required>
                         </div>
                         <div class="mb-3">
-                            <input type="email" placeholder="Seu e-mail" name="email" class="form-control fw-300" id="exampleInputEmail" required>
+                            <input type="email" placeholder="Seu e-mail" name="$emailEmpresa" class="form-control fw-300" id="exampleInputEmail" required>
                         </div>
                         <button type="submit" class="btn btn-custom bg-green color-light float-end">Solicitar</button>
                     </form>
@@ -591,32 +590,120 @@
     
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title color-dark" id="exampleModalLabel">Agende agora</h5>
+                    <h4 class="modal-title color-dark" id="exampleModalLabel">Guia de Encaminhamento</h4>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <form action="https://api.staticforms.xyz/submit" method="POST" class="px-5"></form>
+                <form action="https://api.staticforms.xyz/submit" method="POST" class="px-5">
                     <div class="modal-body">
                         <input type="hidden" name="accessKey" value="6c8535a9-8f62-4555-a3d2-2a21f0e7924e">
-                        <input type="hidden" name="redirectTo" value="">
+                        <input type="hidden" name="redirectTo" value="https://www.cameso.com.br/sucesso/agendamento">
+                        <h5 class="mb-3">Dados da empresa</h5>
                         <div class="mb-3">
-                            <input type="text" placeholder="Nome da empresa" name="name" class="form-control fw-300" id="exampleInputCompany" required>
+                            <input type="text" placeholder="Nome da empresa" name="$nomeEmpresa" class="form-control fw-300" id="inputCompany" required>
                         </div>
                         <div class="mb-3">
-                            <input type="text" placeholder="Telefone para contato" name="phone" class="form-control fw-300" id="exampleInputPhone" minlength="10" required>
+                            <input type="text" placeholder="CNPJ" name="$cnpjEmpresa" class="form-control fw-300" id="inputCnpj" required>
                         </div>
                         <div class="mb-3">
-                            <input type="email" placeholder="Seu e-mail" name="email" class="form-control fw-300" id="exampleInputEmail" required>
+                            <input type="email" placeholder="E-mail da empresa" name="$emailEmpresa" class="form-control fw-300" id="inputEmailCompany" required>
+                        </div>
+                        <h5 class="my-3">Dados do funcionario</h5>
+                        <div class="mb-3">
+                            <input type="text" placeholder="Nome completo" name="$nomeFuncionario" class="form-control fw-300" id="inputNameEmployee" required>
                         </div>
                         <div class="mb-3">
-                            <textarea class="form-control fw-300" name="message" placeholder="Deixe sua mensagem" id="exampleInputMessage"></textarea>
+                            <input type="text" placeholder="CPF" name="$cpfFuncionario" class="form-control fw-300" id="inputCpfEmployee" required>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col">
+                                <input type="text" placeholder="RG" name="$rgFuncionario" class="form-control fw-300" id="inputRgEmployee" required>
+                            </div>
+                            <div class="col">
+                                <input type="text" placeholder="Orgão Expedidor" name="$orgaoExpedidorFuncionario" class="form-control fw-300" id="inputOeEmployee" required>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col">
+                                <label for="inputBirthDateEmployee" class="form-label">Data de Nascimento</label>
+                                <input type="date" name="$nascimentoFuncionario" class="form-control fw-300" id="inputBirthDateEmployee" required>
+                            </div>
+                            <div class="col">
+                                <label for="inputAdmissionEmployee" class="form-label">Data de admissão</label>
+                                <input type="date" name="$admissaoFuncionario" class="form-control fw-300" id="inputAdmissionEmployee" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" placeholder="Função" name="$funcaoFuncionario" class="form-control fw-300" id="inputFunctionEmployee" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" placeholder="Setor" name="$setorFuncionario" class="form-control fw-300" id="inputSectorEmployee" required>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col">
+                                <input type="text" placeholder="Número do NIT/PIS" name="$nitPisFuncionario" class="form-control fw-300" id="inputNitPisEmployee" required>
+                            </div>
+                            <div class="col">
+                                <input type="text" placeholder="Matrícula eSocial" name="$eSocialFuncionario" class="form-control fw-300" id="inputESocialEmployee" required>
+                            </div>
+                        </div>
+                        <h5 class="my-3">Tem alguma Deficiência?</h5>
+                        <select class="form-select fw-300" name="$deficiencia" aria-label="Default select example">
+                            <option class="fw-300" value="Sim, o funcionário possui alguma deficiência física completa ou parcial.">
+                                Sim, o funcionário possui alguma deficiência física completa ou parcial.
+                            </option>
+                            <option class="fw-300" selected value="Não, ele não possui nenhuma deficiência física.">
+                                Não, ele não possui nenhuma deficiência física.
+                            </option>
+                        </select>
+                        <h5 class="my-3">Qual o tipo de exame desejado?</h5>
+                        <select class="form-select fw-300" name="$deficiencia" aria-label="Default select example">
+                            <option class="fw-300" selected value="Admissional">
+                                Admissional
+                            </option>
+                            <option class="fw-300" value="Periódico">
+                                Periódico
+                            </option>
+                            <option class="fw-300" value="Periódico">
+                                Demissional
+                            </option>
+                            <option class="fw-300" value="Periódico">
+                                Retorno ao trabalho
+                            </option>
+                            <option class="fw-300" value="Periódico">
+                                Mudança de risco
+                            </option>
+                            <option class="fw-300" value="Periódico">
+                                Consulta assistencial
+                            </option>
+                            <option class="fw-300" value="Periódico">
+                                Exame toxicológico
+                            </option>
+                        </select>
+                        <h5 class="my-3">Descrição da função <span class="fw-300">(em caso de nova função)</span></h5>
+                        <div class="mb-3">
+                            <textarea class="form-control fw-300" name="$descritivoFuncao" placeholder="Descritivo da função" id="inputFunctionDescriptor"></textarea>
+                        </div>
+                        <h5 class="my-3">Dados do responsável</h5>
+                        <div class="mb-3">
+                            <input type="text" placeholder="Nome completo do responsável pelo encaminhamento" name="$nomeResponsavelEncaminhamento" class="form-control fw-300" id="inputResponsibleForwarding" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" placeholder="Nome completo do responsável pelo agendamento" name="$nomeResponsavelAgendamento" class="form-control fw-300" id="inputResponsibleScheduling" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" placeholder="Telefone do responsável pelo agendamento" name="$telefoneResponsavelAgendamento" class="form-control fw-300" id="inputPhoneScheduling" required>
+                        </div>
+                        <div>
+                            <h6 class="color-medium-grey">*Nenhuma informação será divulgada ou comercializada</h6>
                         </div>
                     </div>
                     <div class="modal-footer">
+                        <button type="button" class="btn fw-bold color-medium-grey" data-bs-dismiss="modal">Cancelar</button>
                         <button type="submit" class="btn bg-green btn-custom shadow-lg px-4 py-2 color-light">
-                            <span class="h6 fw-bold">Agendar</span>
+                            <span class="h6 fw-bold">Enviar</span>
                         </button>
                     </div>
                 </form>
