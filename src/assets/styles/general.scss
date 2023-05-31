@@ -1,0 +1,173 @@
+/*html {
+    font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.4rem;
+    }
+  } */
+
+
+
+// Variables
+$light: #F6F8FE;
+$green: #42C059;
+$dark: #1A2E38;
+
+$light-green: #C9EFD0;
+$medium-green: #42D95D;
+//$system green:
+$dark-green: #158629;
+$white: #FBFBFB;
+$light-grey: #E2E0E0;
+$medium-grey: #D3D3D3;
+$grey: #888888;
+$dark-grey: #676666;
+
+// General
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: $dark;
+    background-color: $light;
+}
+
+/* Base Colors */
+
+.bg-light {
+    background-color: $light;
+}
+.color-light {
+    color: $light;
+}
+
+.bg-dark {
+    background-color: $dark;
+}
+.color-dark {
+    color: $dark;
+}
+
+.bg-green {
+    background-color: $green;
+}
+.color-green {
+    color: $green;
+}
+
+/* Secondary Colors */
+
+.bg-light-green {
+    background-color: $light-green;
+}
+.color-light-green {
+    color: $light-green;
+}
+
+.bg-medium-green {
+    background-color: $medium-green;
+}
+.color-medium-green {
+    color: $medium-green;
+}
+
+.bg-system-green { /* MESMA COR DO GREEN COLOR */
+    background-color: $green;
+}
+.color-system-green {
+    color: $green;
+}
+
+.bg-dark-green {
+    background-color: $dark-green;
+}
+.color-dark-green {
+    color: $dark-green;
+}
+
+/* Neutral Colors */
+
+.bg-white {
+    background-color: $white;
+}
+.color-white {
+    color: $white;
+}
+
+.bg-light-grey {
+    background-color: $light-grey;
+}
+.color-light-grey {
+    color: $light-grey;
+}
+
+.bg-medium-grey {
+    background-color: $medium-grey;
+}
+.color-medium-grey {
+    color: $medium-grey;
+}
+
+.bg-grey {
+    background-color: $grey;
+}
+.color-grey {
+    color: $grey;
+}
+
+.bg-dark-grey {
+    background-color: $dark-grey;
+}
+.color-dark-grey {
+    color: $dark-grey;
+}
+
+/* Gradient */
+.gd-green {
+    background-image: linear-gradient(to right, $medium-green, #42C159); // QUE VERDE É ESSE?
+}
+.gd-dark {
+    background-image: linear-gradient(to bottom, $dark, #0D181D); // QUE COR É ESSA?
+}
+.gd-light {
+    background-image: linear-gradient(to right, #ffffff, $light); // ?????????????
+}
+
+/* Font Weight */
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+/* Hover/Focus */
+.dropdown-item:focus {
+    background-color: $green;
+}
+.btn-custom:hover {
+    border-color: $green;
+    color: $green
+}
+.btn-custom-outline:hover {
+    background-color: $green;
+    border-color: $green;
+    color: $light;
+}
+.link-custom:hover {
+    color: $green
+}
